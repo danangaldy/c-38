@@ -1,0 +1,38 @@
+/* untuk tablet */
+@media all and (max-width:1000px){
+    .lesson{
+        width: 50%;
+    }
+    .lesson-wrapper{
+        height:1000px;
+    }
+    .menu-icon{
+        display:none;
+      }
+    
+}
+
+@media all and (max-width:670px){
+    .lesson{
+        width: 100%;
+    }
+    .top-wrapper h1{
+        text-align: left;
+        font-size: 30px;
+        opacity: 0.7;
+    letter-spacing: 1px;
+    }
+    .header-kanan{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .lesson-wrapper{
+        height:1700px;
+    }
+    heading{
+        width:20%;
+    }
+
+}
