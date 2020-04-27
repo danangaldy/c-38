@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  header{
+      height: 65px;
+      width: 100%;
+      background-color: rgba(7, 7, 7, 0.9);
+      opacity: 1;
+      position: fixed;
+      z-index: 10;
+  }
+
+  .container{
+      max-width: 1170px;
+      width: 100%;
+      padding:0 0;
+      margin: 0 auto;
+  }
+  .logo{
+      width: 80px;
+      margin-top: 2px;
+      
+  }
+  .header-kiri{
+    float:left;
+
+  }
+  .header-kanan{
+      float: right;
+      margin-right:-25px;
+      
+  }
+  
+  .header-kanan a{
+      line-height: 65px;
+      padding: 0 25px;
+      color: white;
+      display: block;
+      float: left;
+      transition: all 0.5s;
+  }
+ 
+  .header-kanan a:hover{
+    background-color: rgba(76, 76, 78, 0.3);
+  }
+  .top-wrapper{
+    padding: 100px 0 200px 0;
+    background-image: url(img/background1.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    
+    
+  }
+  .top-wrapper h1{
+    font-size: 60px;
+    opacity: 0.7;
+    letter-spacing: 5px;
+  }
+  .top-wrapper p{
+    font-size: 20px;
+    padding-bottom: 50px;
+    opacity: 0.7;
+  }
+  .mulai{
+    padding:15px 40px;
+    border-radius: 25px;
+    background-color: rgb(228, 15, 228);
+    cursor: pointer;
+    box-shadow: 0 7px rgb(48, 6, 48);
+  }
+  .mulai:active{
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  .lesson-wrapper{
+    height:600px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+  .heading h2{
+    padding-bottom: 50px;
+  }
+  .lesson{
+    float: left;
+    width: 25%;
+  }
+  .lesson-icon{
+    position: relative;
+  }
+  
+ 
+  .lesson-icon img{
+    width:200px;
+    height:200px
+  }
+  .text-contents{
+    padding-bottom: 80px;
+  }
+
+  .search{
+    height:300px;
+    background-color: rgb(45, 46, 46);
+  }
+  .heading p{
+
+    /* color: white; */
+    text-align: center;
+    
+  }
+.pencarian{
+  text-align: center;
+}
+.cari{
+    padding:8px 15px;
+    background:rgba(189, 187, 187, 0.2);
+    border:0px solid #dbdbdb;
+    border-radius: 25px;
+    width: 600px;
+    height: 40px;
+    margin-right: 20px;
+}
+.button {
+  position:relative;
+  border-radius: 10px;
+  padding:6px 15px;
+  left:-8px;
+  height: 40px;
+  width: 70px;
+  border:2px solid #53bd84;
+  background-color:#53bd84;
+  color:#fafafa;
+}
+.button:hover  {
+  background-color:#fafafa;
+  color:#207cca;
+}
+.Contoh p{
+  padding-top: 100px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.footer{
+  background-color: black;
+  
+  width: 100%;
+  height: 120px;
+  padding: 40px;
+  }
+
+  .footer-logo{
+    float: left;
+  }
+  .sosmed{
+    float: right;
+  }
+.fa-facebook{
+  color:white;
+}
+.fa-twitter{
+  color:white;
+}
+.fa-instagram{
+  color: white;
+}
+.footer p{
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+}
